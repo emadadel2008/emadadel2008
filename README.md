@@ -120,7 +120,8 @@
 ---
 
 ## 📽️ Content & Community  
-- 🎥 [YouTube - EL-WARSHA Series](https://www.youtube.com/playlist?list=...)  
+- 🎥 [YouTube - EL-WARSHA Series](https://www.youtube.com/playlist?list=...)
+- 🎥 [🎥Think Like an Architect]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://www.youtube.com/playlist?list=PLgkvelrNjp1HiEJkiCDA8kK3KHV-_7SEE))
 - 👥 Founder of **Egypt Azure Community**  
 - 🧑‍🏫 Microsoft Certified Trainer (MCT)  
 
