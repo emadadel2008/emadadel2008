@@ -43,7 +43,6 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/emadadel2008/emadadel2008/output/snake.svg" alt="Snake animation" />
 
 
 ###
