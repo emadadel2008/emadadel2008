@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emad Adel | Cloud Architect</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
+
+<!-- Navbar -->
+<nav class="flex justify-between p-4 shadow bg-white dark:bg-gray-800">
+  <h1 class="font-bold text-xl">Emad Adel</h1>
+  <button onclick="toggleDark()" class="px-3 py-1 bg-gray-200 dark:bg-gray-700 rounded">🌙</button>
+</nav>
+
+<!-- Hero -->
+<section class="text-center py-20">
+  <h2 class="text-4xl font-bold">Azure MVP | Cloud Architect</h2>
+  <p class="mt-4">Helping companies migrate and scale on cloud</p>
+</section>
+
+<!-- About -->
+<section class="p-10 max-w-4xl mx-auto">
+  <h2 class="text-2xl font-bold mb-4">About Me</h2>
+  <p>
+    I'm Emad Adel, Multi-Cloud Solution Architect with 16+ years experience in Azure, AWS, and Cloud Architecture.
+  </p>
+</section>
+
+<!-- Skills -->
+<section class="p-10 bg-gray-200 dark:bg-gray-800">
+  <h2 class="text-2xl font-bold mb-4 text-center">Skills</h2>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+    <div>Azure</div>
+    <div>AWS</div>
+    <div>Terraform</div>
+    <div>Security</div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="p-10 max-w-5xl mx-auto">
+  <h2 class="text-2xl font-bold mb-6">Projects</h2>
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="p-4 shadow rounded bg-white dark:bg-gray-800">
+      <h3 class="font-bold">Azure Migration</h3>
+      <p>On-prem to Azure migration project.</p>
+    </div>
+    <div class="p-4 shadow rounded bg-white dark:bg-gray-800">
+      <h3 class="font-bold">Landing Zone</h3>
+      <p>Enterprise Azure Landing Zone using Terraform.</p>
+    </div>
+  </div>
+</section>
+
+<!-- YouTube -->
+<section class="p-10 bg-gray-200 dark:bg-gray-800 text-center">
+  <h2 class="text-2xl font-bold mb-4">YouTube</h2>
+  <iframe class="mx-auto" width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<!-- Contact -->
+<section class="p-10 text-center">
+  <h2 class="text-2xl font-bold mb-4">Contact</h2>
+  <a href="#" class="underline">LinkedIn</a>
+</section>
+
+<script>
+function toggleDark() {
+  document.documentElement.classList.toggle('dark');
+}
+</script>
+
+</body>
+</html>
